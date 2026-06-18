@@ -1,0 +1,42 @@
+/* ===== Padding lateral general para toda la página de Políticas — añadir a estilos.css ===== */
+
+.policies-page {
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+.policies-page .policy-pillars,
+.policies-page .policy-grid-5,
+.policies-page .policy-grid-4,
+.policies-page .about-location-section,
+.policies-page .partner-logos {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Bloque de intro (título + texto de Política Integrada, sin imagen) */
+.policy-intro {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.policy-intro .blue-title {
+  margin-bottom: 20px;
+}
+
+.policy-intro .plain-copy {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .policies-page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .policy-intro {
+    margin: 30px auto;
+  }
+}
